@@ -1,0 +1,33 @@
+#calDesign {
+    width: 300px;
+    margin: 100px auto;
+    display: grid;
+    background-color: beige;
+    padding: 40px;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 20px;
+}
+
+#calDesign h2 {
+    background-color: black;
+    color: beige;
+    margin: 0;
+    padding: 13px 20px 0px 20px;
+    height: 53px;
+    font-size: 35px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    border-radius: 10px;
+}
+
+#calDesign h4{
+    text-align: center;
+    background-color: grey;
+    color: black;
+    border-radius: 10px;
+    margin: 0;
+    height: 45px;
+    font-size: 22px;
+    padding-top: 20px;
+}
